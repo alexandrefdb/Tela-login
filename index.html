@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="estilo/style-geral.css">
-    <link rel="stylesheet" href="estilo/media-queries.css">
-    <title>Tela de Login</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
     <main>
@@ -16,27 +13,14 @@
             <div id="imagem">
 
             </div>
-            <div id="formulario">
-                <form action="cadastru.php" method="post">
-                    <h1>Login</h1>
-                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                    <div id="campo">
-                        <label for="id-email"><p class="material-icons">person</p></label>
-                        <input type="email" name="email" id="id-email" required autocomplete="email" placeholder="Seu e-mail">
-                    <div>
-                    <div class="campo">
-                        <label for="id-password"><p class="material-icons">key</p></label>
-                        <input type="password" name="passowrd" id="id-password" required autocomplete="current-password" minlenght="8" maxlength="20" placeholder="Sua senha">
-                    </div>
-                    <p>
-                        <input type="submit" value="Entrar">
-                        <a href="esqueci.html">Esqueci minha senha
-                            <i class="material-icons">mail</i>
-                        </a>
-            
-                    </p>
+            <div id="formulário">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações do seu ambiente.</p>
+                <form action="login.php" method="post">
+                    
                 </form>
-            </main>
+            </div>
         </section>
+    </main>
 </body>
 </html>
