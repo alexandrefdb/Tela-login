@@ -25,9 +25,9 @@ div#formulario{
     padding: 10px;
 
 }
-div.campo{
+div#campo{
     background-color: #5F2D82;
-    width: 300px;
+    padding: 15px;
 }
 input#id-email, input#id-password{
     border: none;
